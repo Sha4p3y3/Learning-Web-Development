@@ -1,0 +1,53 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  p:first-child{
+    background-color: pink;
+  }
+  p::first-letter{
+    font-style: italic;
+  }
+  #top {
+    width:100%;
+    position:fixed;
+    opacity:0.5;
+    text-align:center;
+  }
+  .floated {
+    float:left;
+    margin-right: 20px;
+  }
+  .clear-float {
+    clear:both;
+  }
+  caption {
+    font-size: 0.9em;
+  }
+  #form{
+    width:400px;
+    background-color: pink;
+  }
+  #space {
+    padding-top:10px;
+    padding-left:10px;
+  }
+  .clear-space {
+    margin:0px;
+    padding:0px;
+  }
+  form {
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #link{
+    text-align: center;
+  }
+  iframe{
+    display:none;
+  }
+  .show-iframe:hover iframe{
+      display:block;
+  }
