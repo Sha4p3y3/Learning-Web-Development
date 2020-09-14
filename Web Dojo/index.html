@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- Basic Structure of HTML page -->
+<html lang='en'>
+  <head>
+    <title>Web Dojo - HTML Learning Journey</title>
+    <!-- Meta tag defines metadata about the document -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS & Javascript">
+    <meta name="description" content="Learning HTML, CSS & Javascript">
+    <meta name="author" content="Roni Rengit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <!--Link external Stylesheet -->
+    <link rel='stylesheet' href="resources\css\style.css">
+  </head>
+  <body>
+    <h1 id="top">H1 <em>Heading</em> Tag</h1>
+    <h1>H1 <em>Heading</em> Tag</h1>
+    <p>This is a <strong>paragraph</strong> tag. <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h3>Some more ways of formatting... </h3>
+    <div class='floated'>
+      <p><ins>Deleted Text</ins></p>
+      <p>This is a <sup>Superscript</sup>.</p>
+      <p>This is a subscript<sub>Subscript</sub>.</p>
+    </div>
+    <div class="floated">
+      <h4>Ordered List</h4>
+      <ol type='A'>
+        <li>Cake</li>
+        <li>Eggs</li>
+        <li>Butter</li>
+        <li>Sugar</li>
+        <ol type="A">
+          <li><a href="https://www.google.com">Google</a></li>
+          <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+        </ol>
+      </ol>
+    </div>
+    <div class="floated">
+      <h4>Unordered List</h4>
+      <ul style='list-style-type:square;'>
+        <li>First</li>
+        <li>second</li>
+        <li>Third</li>
+      </ul>
+    </div>
+    <div class="floated">
+      <h4>Table</h4>
+      <table>
+        <caption>List of Names and their ages</caption>
+      <thead>
+        <tr>
+          <th>Serial No.</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Doe</td>
+          <td>34</td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    <div class='clear-float'></div>
+    <h3>HTML Entities</h3>
+    <p>They are HTML code that can represent symbols such as &lt, &gt, etc which are normally intrepreted by the browser as part of HTML tags.</p>
+    <div class="show-iframe">
+      <h3>iFrames</h3>
+      <p>Viewing another site's content on your page</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-gDinVAmtA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+    <div id="form">
+      <h4 class='clear-space' id='space'>Forms</h4>
+      <form class="post-form" action="index.html" method="get">
+        <p>Username:&nbsp <input type="text" class='clear-space' name="username" placeholder="Enter username"></p>
+        <p>Password:&nbsp <input class='clear-space' type='password' placeholder="secret password"></p>
+        <p>Age: </p>
+        <p>Over 18: <input class='clear-space' type='radio' name='age'value='over18'></p>
+        <p>Under 18: <input type='radio' class='clear-space' name='age' value='under18'></p>
+        <p><input type="checkbox" class='clear-space' checked>&nbspKeep me signed on</p>
+        <input class='clear-space' type='submit' value='Submit'>
+      </form>
+    </div>
+    <h4 id='link'><a href=#top>Let's go back to the top</a></h4>
+  </body>
+</html>
